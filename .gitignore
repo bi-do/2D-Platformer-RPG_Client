@@ -101,4 +101,4 @@ InitTestScene*.unity*
 # personal Ignore
 .vscode/
 
-*/99. Resourecs/*
+**/99. Resourecs/**
