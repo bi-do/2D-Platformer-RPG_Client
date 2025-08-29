@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMoveController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    private float move_spd = 4f;
     [SerializeField] private float jump_power = 16f;
     [SerializeField] private float double_jump_power_x = 15f;
     [SerializeField] private float double_jump_power_y = 15f;
 
+    private float move_spd = 4f;
     Vector2 dir;
 
     /// <summary> 플레이어의 X축 속도 </summary>
@@ -111,18 +111,6 @@ public class PlayerMoveController : MonoBehaviour
             this.rb.AddForce(double_jump_power, ForceMode2D.Impulse);
             // Debug.Log("더블 점프 호출");
         }
-
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
 
     }
 
