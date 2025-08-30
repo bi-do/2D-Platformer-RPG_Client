@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4052640189842068180}
   - component: {fileID: 3505064312254146052}
   - component: {fileID: 599982589493749648}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Skleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
